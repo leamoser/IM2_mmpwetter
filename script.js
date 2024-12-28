@@ -202,10 +202,10 @@ async function initCityButtons() {
 // Initialisierung
 async function init() {
 
-    // initially load buttons for all cities
+    // lade die Buttons für die Städte dynamisch & zeige sie im HTML an
     await initCityButtons();
 
-    // display weather data of first city in array cities
+    // zeige die Wetterdetails der ersten Stadt im array cities
     await displayCityDetailsById(cities[0].id);
 
 }
