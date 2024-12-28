@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>MMP Wetter</title>
+</head>
+<body>
+<main>
+    <h1>MMP-Wetter</h1>
+    <article id="box">
+        <div id="weather">
+            <div id="details">
+                <h2>Bern</h2>
+                <p id="temperature">2</p>
+                <p id="wind">
+                    <img src="assets/wind.svg" alt="Icon Windgeschwindigkeit" />
+                    <span id="windspeed">2</span>
+                </p>
+            </div>
+            <img id="icon" src="icons/mainly_clear.svg" alt="">
+        </div>
+        <div id="cities">
+            <button id="bern" class="active">
+                <span class="circle">
+                    <img src="icons/fog.svg" alt="Icon Wetter Bern">
+                </span>
+                <span class="city">Bern</span>
+            </button>
+            <button id="chur">
+                <span class="circle">
+                    <img src="icons/clear_sky.svg" alt="Icon Wetter Chur">
+                </span>
+                <span class="city">Chur</span>
+            </button>
+            <button id="zurich">
+                <span class="circle">
+                    <img src="icons/rainshowers.svg" alt="Icon Wetter Zürich">
+                </span>
+                <span class="city">Zürich</span>
+            </button>
+        </div>
+    </article>
+</main>
+<script src="script.js" type="module"></script>
+</body>
+</html>
